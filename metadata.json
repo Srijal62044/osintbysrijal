@@ -1,0 +1,6 @@
+{
+  "name": "OSINT Terminal",
+  "description": "Cyberpunk terminal interface for multi-vector OSINT lookups with real-time JSON stream highlighting, CRT scanlines, and telemetry.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
