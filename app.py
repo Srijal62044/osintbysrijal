@@ -44,7 +44,7 @@ def lookup():
         return jsonify({"ok": False, "error": "query is empty"}), 400
 
     param = SERVICES[service]
-    url = f"{BASE}?={service}&key={KEY}&{param}={quote(query)}"
+    url = f"{BASE}={service}&key={KEY}&{param}={quote(query)}"
 
     t0 = time.time()
     try:
