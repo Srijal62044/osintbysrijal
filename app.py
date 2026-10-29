@@ -6,8 +6,8 @@ import os
 
 app = Flask(__name__)
 
-BASE = "https://api.sarkariallupdates.com/api"
-KEY  = "30day"
+BASE = os.environ["BASE_URL"]
+KEY = os.environ["API_KEY"]
 TIMEOUT = 30
 
 # service name -> query parameter name in the upstream API
